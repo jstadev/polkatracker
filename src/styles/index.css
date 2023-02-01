@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+}
+
+ul,
+ol,
+li {
+  list-style-type: none;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  background-color: #2e2f33;
+  max-width: 76.25rem;
+  margin: auto;
+  padding: 1.25rem;
+  
+}
+
+p {
+  line-height: 1.8;
+}
+
+a{
+  background: grey;
+  padding: 5px 10px;
+  border-radius: 5px;
+  text-decoration: none;
+  color: white;
+}
+li{
+  margin: 5px 0;
+  /* background: blue; */
+}
+
+.langs{
+  background: rgb(121,9,111);
+background: linear-gradient(90deg, rgba(121,9,111,1) 10%, rgba(3,139,167,1) 100%);
+}
